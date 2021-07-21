@@ -13,7 +13,11 @@ def play_mister_zee():
 
 def many_shiny_objects():
     # TODO 1) Call the method above to play Mister Zee
-
+    play_mister_zee()
+    so = simpledialog.askinteger(title=None, prompt='How many shiny objects would you like?')
+    str(so)
+    for i in range(so):
+        playsound('shiny-objects.wav')
     # TODO 2) Ask the user how many shiny objects they want
 
     # TODO 3) Play the sound that many times

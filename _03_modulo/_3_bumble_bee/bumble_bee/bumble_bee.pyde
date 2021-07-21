@@ -56,3 +56,5 @@ def draw_bee_face(bee_face_x, bee_face_y):
      ellipse(bee_face_x, bee_face_y+10, 20, 10) # mouth
      fill(255, 251, 28)
      ellipse(bee_face_x, bee_face_y+5, 20, 6)
+
+
