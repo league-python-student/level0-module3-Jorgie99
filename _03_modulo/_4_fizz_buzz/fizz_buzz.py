@@ -13,3 +13,14 @@
    -
    1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz
 """
+number = 20
+for i in range(20):
+    if number % 3 == 0:
+        print('fizz')
+    if number % 5 == 0:
+        print('buzz')
+    if (number % 3 == 0) and (number % 5 == 0):
+        print('fizzbuzz')
+    elif (number % 3 != 0) and (number % 5 != 0):
+        print(number)
+    number -= 1
